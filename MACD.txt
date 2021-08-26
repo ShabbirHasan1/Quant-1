@@ -1,0 +1,2 @@
+When MACD line cuts signal line from below => Bullish Trend
+and if it cuts the signal line from top => Bearish trend

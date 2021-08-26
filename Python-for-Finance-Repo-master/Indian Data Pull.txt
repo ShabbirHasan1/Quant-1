@@ -1,0 +1,7 @@
+import pandas as pd
+import numpy as np
+import yfinance as yf
+import pandas_datareader as web
+yf.pdr_override()
+
+tata = web.data.get_data_yahoo('TATAMOTORS.NS', start = pd.to_datetime('2010-01-01'), end = pd.to_datetime('2018-01-31'))
